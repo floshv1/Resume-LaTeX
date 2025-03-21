@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1742553266.86116 "c:/Users/GHKSF/Documents/Code/Latex/CV/Resume-LaTeX/src/resume-fr/resume.tex" "resume.pdf" "resume" 1742553267.74747 0
-  "../config.tex" 1742552536 2964 a63f5233cb929cca65637a05f055d855 ""
+["pdflatex"] 1742558928.46626 "c:/Users/GHKSF/Documents/Code/Latex/CV/Resume-LaTeX/src/resume-fr/resume.tex" "resume.pdf" "resume" 1742558929.28552 0
+  "../config.tex" 1742558782 2964 a63f5233cb929cca65637a05f055d855 ""
   "C:/Users/GHKSF/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1739809578 84186 786c7cdf86a3a48e0538395b42dfb0c1 ""
   "C:/Users/GHKSF/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1736867836 12013393 1cfa4150fae8bd8451761067416efd78 ""
   "C:/Users/GHKSF/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -85,9 +85,9 @@
   "C:/Users/GHKSF/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1730400552 7243 e5dac1240636811edb77568b81818372 ""
   "C:/Users/GHKSF/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1730400552 7532 d2e1111e17bfebb1607d8ffa779705ec ""
   "C:/Users/GHKSF/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/GHKSF/Documents/Code/Latex/CV/Resume-LaTeX/src/resume-fr/resume.tex" 1742553265 5979 d3a9f26147498b19cde906c2cb788b59 ""
-  "resume.aux" 1742553267 2050 fe5915f1912b8402b3a679c311db884b "pdflatex"
-  "resume.tex" 1742553265 5979 d3a9f26147498b19cde906c2cb788b59 ""
+  "c:/Users/GHKSF/Documents/Code/Latex/CV/Resume-LaTeX/src/resume-fr/resume.tex" 1742558927 5974 d0827f3d76490a9c8a6e7de9031372c5 ""
+  "resume.aux" 1742558929 2050 fe5915f1912b8402b3a679c311db884b "pdflatex"
+  "resume.tex" 1742558927 5974 d0827f3d76490a9c8a6e7de9031372c5 ""
   (generated)
   "resume.aux"
   "resume.log"
