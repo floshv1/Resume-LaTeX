@@ -6,9 +6,11 @@
 %------------------------
 
 %------------PACKAGES----------
+\usepackage[utf8]{inputenc}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
+\usepackage[T1]{fontenc}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
@@ -18,6 +20,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{graphicx}
 \input{glyphtounicode}
 %------------------------------
 
@@ -25,6 +28,8 @@
 % /!\ Generate an error. To be fixed. /!\
 % \renewcommand{\familydefault}{\sfdefault}
 %-------------------------------
+
+
 
 %----------FORMATTING-----------
 \setlength{\footskip}{5pt}
@@ -104,4 +109,10 @@
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\resumePhoto}[1]{
+  \begin{flushleft}
+    \includegraphics[width=2.5cm]{#1} % Ajuste la taille si nécessaire
+  \end{flushleft}
+}
 %-------------------------------

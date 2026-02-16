@@ -10,112 +10,116 @@
 \begin{document}
 
 %---------------HEADING---------------
-\begin{center}
-  \textbf{\Huge Florian Cazac} \\ \vspace{1pt}
-  \href{mailto:cazac.florian@gmail.com}{\underline{cazac.florian@gmail.com}} $|$ 
-  \href{https://www.linkedin.com/in/fcazac/}{\underline{https://www.linkedin.com/in/fcazac/}} $|$
-  \href{https://github.com/floshv1}{\underline{https://github.com/floshv1}} \\
-  \vspace{6pt}
-  \textbf{\small{Étudiant en première année de cycle ingénieur à la recherche d'un stage de 8 semaines entre juin et juillet dans le domaine de la cybersécurité.}}
-\end{center}
+\begin{tabularx}{\textwidth}{Xr}
+  \begin{minipage}{0.7\textwidth}
+    \textbf{\Huge Florian Cazac} \\
+    \href{mailto:cazac.florian@gmail.com}{\underline{cazac.florian@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/fcazac/}{\underline{LinkedIn/fcazac}} $|$
+    \href{https://github.com/floshv1}{\underline{github.com/floshv1}} $|$ 
+    \href{https://tryhackme.com/p/Floshv1}{\underline{TryHackMe}} \\
+    \textbf{\small{Étudiant en M1, Majeure Objets Connectés \& Cybersécurité recherchant un stage en programmation \& cybersécurité de 4 mois à partir du 13 Avril 2026.}}
+  \end{minipage}
+  &
+  \begin{minipage}{0.15\textwidth}
+    \resumePhoto{pp2.jpg} %TODO
+  \end{minipage}
+\end{tabularx}
+
 %-------------------------------------
 
 %--------------EDUCATION--------------
 \section{Formations}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {\href{https://www.esilv.fr/}{\textbf{École Supérieure d'Ingénieurs Léonard de Vinci}}}{Sept. 2022 -- Aujourd'hui}
-      {Ingénieur généraliste, majeure Objets Connectés \& Cybersécurité}{La Défense, Paris}
+      {\href{https://www.esilv.fr/}{\textbf{École Supérieure d'Ingénieurs Léonard de Vinci}}}{Sept. 2022 -- 2027}
+      {Majeure Objets Connectés \& Cybersécurité labellisée ANSSI}{La Défense, Paris}
+      \resumeItemListStart
+        \resumeItem{Architecture (OS, Network, Hardware Virtualization),}
+        \resumeItem{Développement (Rust, Software Engineering)}
+      \resumeItemListEnd
     \resumeSubheading
       {\href{https://www.uvic.cat/fr}{\textbf{UVIC-UCC}}}{Sept. 2024 -- Janv. 2025}
       {Semestre à l'étranger, data \& IA, Python, Optimisation et recherche opérationnelle}{Vic, Espagne}
   \resumeSubHeadingListEnd
 %-------------------------------------
+%-----------PROGRAMMING SKILLS-----------
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Langages de programmation :} C\#, Python, Bash, Powershell, SQL (MySQL, PostgreSQL), C/C++, Rust \\
+    \textbf{Systèmes d’exploitation :} Linux (Ubuntu, Debian), Windows \\
+    \textbf{Outils de développement :} Git \& GitHub, VS Code, Visual Studio, Arduino IDE, Docker \\
+    \textbf{Logiciels :} Notion, SolidWorks, KiCad, Cisco Packet Tracer, Suite Office, Draw.io \\
+    \textbf{Langues :} Français (natif), Anglais (B2 - courant) \\
+
+  }}
+\end{itemize}
+
+%-------------------------------------------
 
 %------------------PROJECTS-----------------
 \section{Projets}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\href{https://github.com/THE-TRAVELERS}{\textbf{TRAVELERS}} $|$ \emph{Python, ROS, git, Dart, Flutter}}{Févr. 2025 -- Aujourd'hui}
+          {{\textbf{Chef de projet - SmartLock}} $|$ \emph{PostgreSQL, Docker, Python}}{Sept. 2025 -- Aujourd'hui}
           \resumeItemListStart
-            \resumeItem{Création d'un rover lunaire tout terrain dans le cadre d'un projet associatif}
-            \resumeItem{Conception d'un controller pour piloter le rover à distance}
+            \resumeItem{Gestion d'une équipe de 5 personnes : suivi client hebdomadaire, planification des tâches et répartition}
+            \resumeItem{Conception et développement d'un système de gestion d'accès avec traçabilité complète des emprunts}
+            \resumeItem{Architecture backend conteneurisée avec PostgreSQL et API REST pour l'interface de gestion}
           \resumeItemListEnd
       \resumeProjectHeading
-          {{\textbf{Discovery}} $|$ \emph{Arduino, CAO, Gestion de budget, Organisation, Soudure}}{Sept. 2023 -- Juin 2024}
+          {\href{https://github.com/THE-TRAVELERS}{\textbf{TRAVELERS}} $|$ \emph{Python, git, Raspberry, Recherche}}{Févr. 2025 -- Juin 2025}
           \resumeItemListStart
-            \resumeItem{Création d'un jukebox DIY avec lecture des deux faces d'un disque vinyle 33 tours}
-            \resumeItem{Conception de la partie tourne-disque et du schéma électrique et montage}
+            \resumeItem{Création d'un rover lunaire tout terrain dans le cadre d'un projet associatif}
+            \resumeItem{Développement de la manette : capture des données du joystick, communication avec le rover via Radio}
           \resumeItemListEnd
-      
+    \resumeSubHeadingListEnd
+    \textbf{Projets personnels :}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+      \small{\item{
+        \textbf{Home Server} $|$ \emph{Raspberry Pi 4, Docker, Tailscale, Traefik} \\
+        Administration de 10+ services conteneurisés (Portainer, Vaultwarden, Home Assistant, monitoring). Sécurisation via VPN (Tailscale) et reverse proxy (Traefik). \\[0.5em]
+        \textbf{\href{https://github.com/floshv1/floshy_bot}{Bot Discord}} $|$ \emph{Python, GitHub Actions, CI/CD} \\
+        Automatisation pour une communauté de 50 membres avec commandes personnalisées. Pipeline CI/CD complet : tests automatisés et déploiement continu via GitHub Actions. \\[0.5em]
+      }}
+    \end{itemize}
+%-------------------------------------------
+
+%------------------EXPERIENCE-----------------
+\section{Expériences}
+    \resumeSubHeadingListStart
+      \resumeSubheading
+        {\href{https://devinci-fablab.fr}{\textbf{Secrétaire général du DeVinci Fablab}}}{Mars 2025 -- Aujourd'hui}
+        {Association d'innovation et de fabrication}{La Défense, Paris}
+        \resumeItemListStart
+          \resumeItem{Préparation de convocations, comptes rendus de réunions, tenir à jour les registres, \\communication auprès des membres et de l'école, gestion des adhésions}
+      \resumeItemListEnd
     \resumeSubHeadingListEnd
 %-------------------------------------------
 
 %--------------EXPERIENCE-------------
-\section{Centres d'interet}
+\section{Centres d'intérêt}
   \resumeSubHeadingListStart
 
 
-    \resumeSubheading
-      {\href{https://devinci-fablab.fr}{\textbf{Co-Secrétaire général du DeVinci Fablab}}}{Mars 2025 -- Aujourd'hui}
-      {Association d'innovation et de fabrication}{La Défense, Paris}
-      \resumeItemListStart
-        \resumeItem{Assister la présidence dans la gestion de l'association}
-        \resumeItem{Preparation de convocation, compte-rendus de réunions, tenir à jour les registres, communication auprès des membres et de l'école}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Membre actif de DaVinciBot}{Févr. 2025 -- Aujourd'hui}
-      {Association de robotique}{La Défense, Paris}
-      \resumeItemListStart
-        \resumeItem{Formations de programmation, d'électronique}
-      \resumeItemListEnd
-
     \resumeSubheadingNoSubtitle
-      {\href{https://devinci-fablab.fr}{\textbf{Membre actif du DeVinci Fablab}}}{Sept. 2022 -- Aujourd'hui}
+      {\href{https://devinci-fablab.fr}{\textbf{Membre  du DeVinci Fablab}}}{Sept. 2022 -- Aujourd'hui}
+      
       \resumeItemListStart
-        \resumeItem{Formations d'informatique, d'électronique, de modélisation et d'impression 3D}
+        \resumeItem{Participation au pole numérique, projet d'API de gestion des membres}
+        \resumeItem{Formations d'informatique, de modélisation et d'impression 3D, programmation, d'électronique}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Joueur de LDV Esport}{Sept. 2022 -- Aujourd'hui}
-      {Association e-sport compétitive en FFSU}{La Défense, Paris}
-      \resumeItemListStart
-        \resumeItem{Participation à des tournois universitaires}
-        \resumeItem{Capacité d'adaptation, de stratégie et d'analyse}
-      \resumeItemListEnd
+      {Membre de LDV Esport et de DaVinciBot}{Sept. 2022 -- Juin 2025}
+      {Association e-sport compétitive en FFSU et association de robotique}{La Défense, Paris}
     
     \resumeSubheading
-    {\href{https://www.taysonvodao.fr}{\textbf{Adhérent du Tay Son Vo Dao}}}{Sept. 2009 -- Juin 2018}
+    {\href{https://www.taysonvodao.fr}{\textbf{Adhérent du TaySon Vo Dao}}}{Sept. 2009 -- Juin 2018}
       {Art Martial Vietnamien}{Pontoise, Val d'Oise}
       \resumeItemListStart
         \resumeItem{Vice champion de France en techniques synchronisées en 2017}
-        \resumeItem{Rigueur, discipline, respect, esprit d'équipe}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
-%-------------------------------------------
-
-%------------------PROJECTS-----------------
-\section{Projets informatiques}
-    \resumeItemListStart
-      \resumeItem{\href{https://github.com/floshv1/MDD_VeloMax}{Développement d'un système de gestion de base de données $|$ \emph{C\#, MySQL, CRUD}}}
-      \resumeItem{\href{https://github.com/floshv1/LoL_Project}{Application de Sélection Aléatoire Personnalisée $|$ \emph{Python, Scrapping, GUI}}}
-      \resumeItem{\href{https://github.com/floshv1/Logiciel_de_traitement_images}{Création d'un logiciel de traitement d'image en application console $|$ \emph{C\#, ConsoleAppVisuals}}}
-      \resumeItem{{Simulateur de combat pokemon $|$ \emph{C++, POO}}}
-    \resumeItemListEnd
-%-------------------------------------------
-
-%-----------PROGRAMMING SKILLS-----------
-\section{Compétences Techniques}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Langues :}{ Français (langue maternelle), Anglais courant B2} \\
-     \textbf{Langages de programmation :}{ C\#, C++, Python, Bash, MySQL} \\
-     \textbf{Frameworks :}{ Arduino} \\
-     \textbf{Bibliothèques :}{ pandas, NumPy, matplotlib, BeautifulSoup, Requests, ConsoleAppVisuals, Ortools} \\
-     \textbf{Outils de développement :}{ GitHub, VS Code, Visual Studio, Arduino IDE } \\
-     \textbf{Logiciels généraux :}{ Notion, Solidworks, KiCad, Suite Office}
-    }}
- \end{itemize}
 %-------------------------------------------
 \end{document}
